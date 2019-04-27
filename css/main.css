@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(46, 101, 197);
+    color:rgb(219, 231, 255);
+    font-family: 'Varela Round', sans-serif;
+    text-align:center;
+}
+
+blue{
+    color: rgb(95, 103, 255);
+}
+
+red{
+    color: rgb(246, 71, 109);
+}
+
+p{
+    font-size: 4vw;
+    margin:5;
+}
+
+h2{
+    font-size: 4vw;
+    margin:5;
+}
+
+.page1{
+    height: calc(100vh - 200px);
+}
+
+#bottomdot{
+    font-size: 200;
+}
+
+input{
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 6vw;
+    color: rgb(219, 231, 255);
+    /* border-bottom-width: 10px; */
+    border-bottom-style: solid;
+    width:20vw;
+}
