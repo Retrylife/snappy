@@ -35,7 +35,7 @@ function update() {
         }
 
         if (response.last_match) {
-            last_match_summary.innerHTML = "__ <blue>" + response.last_match.blue.score + "</blue> to <red>" + response.last_match.red.score + "</red>";
+            last_match_summary.innerHTML = "<blue>" + response.last_match.blue.score + "</blue> to <red>" + response.last_match.red.score + "</red>";
         } else {
             last_match_summary.innerHTML = team + " has not played any matches";
         }
